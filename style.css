@@ -43,6 +43,57 @@ table {
 }
 
 
+/* ----------------------------------- */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    outline: 1px solid black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 a{
     text-decoration: none;
+    display: block;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+sub{
+    vertical-align: sub;
+}
+
+.wrap{
+    max-width: 1088px;
+    padding: 0px 16px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.firstpart{
+    display: flex;
+    justify-content: space-between;
+}
+.second_socialmedia{
+    display: flex;
+}
+.third_character{
+    display: flex;
+}
+.fourthpart{
+    display: flex;
+}
+.fourth_left{
+    display: flex;
+}
+.fifth_comment{
+    display: flex;
 }

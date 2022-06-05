@@ -112,7 +112,7 @@ p{
     width: 48%;
     
 }
-@media(max-width:375px){
+@media(max-width:768px){
     .home{
         width: 81%;
     }

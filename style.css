@@ -49,17 +49,23 @@ table {
 *::before{
     box-sizing: border-box;
     outline: 1px solid black;
+    
 }
-
 img{
     max-width: 100%;
     height: auto;
+    display: block;
 }
-
+/* 字體設計------------------------------- */
+a,p,h1,h2,h3,h4{
+    font-family: Noto Sans TC, Regular;
+}
 a{
     text-decoration: none;
     display: block;
-    text-align: center;
+}
+h1{
+    font-size: 48px;
 }
 h2{
     text-align: center;
@@ -67,20 +73,58 @@ h2{
 sub{
     vertical-align: sub;
 }
+p{
+    font-size: 18px; 
+}
+.green{
+    color: #56C4C5;
+}
 
 .wrap{
     max-width: 1088px;
     padding: 0px 16px;
     margin: 0 auto;
+    
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.logo{
+    width: 218px;
+}
+.button{
+    background-color:#FF5D50;
+    color:white;
+    border-radius: 22px;
+    width: 128px;
+    padding: 8px 0px;
+    text-align: center;
 }
 .firstpart{
     display: flex;
     justify-content: space-between;
+}
+.home{
+    width: 48%;
+    
+}
+@media(max-width:375px){
+    .home{
+        width: 81%;
+    }
+    .p{
+        font-size: 16px;
+    }
+    .firstpart{
+        display: block;
+    }
+    h1{
+        font-size: 32px;
+    }
 }
 .second_socialmedia{
     display: flex;

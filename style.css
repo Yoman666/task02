@@ -328,8 +328,9 @@ hr{
         width: 60px;
     }
     .third_character li{
-        width: 100%;
+        width:80%;
         margin-bottom: 10%;
+        margin-left: 10%;
     }
     .third_character img{
         width: 100%;
